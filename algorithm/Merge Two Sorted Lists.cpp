@@ -17,6 +17,7 @@ using namespace std;
       ListNode *next;
       ListNode(int x) : val(x), next(NULL) {}
 };
+
 class Solution1 {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
